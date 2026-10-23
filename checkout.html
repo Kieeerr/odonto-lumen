@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finalizar compra · Odonto Lumen</title>
+<meta name="description" content="Odonto Lumen: tienda en línea de productos de cuidado dental.">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="checkout">
+<div id="site-header"></div>
+
+<main>
+<section class="page-hero"><div class="container"><h1>Finalizar compra</h1><p>Completa tus datos para registrar el pedido.</p></div></section>
+<section class="section"><div class="container" id="checkout-wrap"><form id="checkout-form" class="cart-layout" novalidate>
+ <div>
+  <div class="panel"><h3>Datos de contacto</h3><div class="form-grid">
+   <div class="field"><label for="nombre">Nombre completo</label><input id="nombre" data-req autocomplete="name"><div class="err">Escribe tu nombre.</div></div>
+   <div class="field"><label for="email">Correo electrónico</label><input id="email" type="email" data-req autocomplete="email"><div class="err">Escribe un correo válido.</div></div>
+   <div class="field full"><label for="tel">Teléfono</label><input id="tel" type="tel" data-req="tel" placeholder="809-000-0000" autocomplete="tel"><div class="err">Escribe un teléfono de 10 dígitos.</div></div></div></div>
+  <div class="panel"><h3>Dirección de entrega</h3><div class="form-grid">
+   <div class="field full"><label for="dir">Dirección</label><input id="dir" data-req autocomplete="street-address"><div class="err">Escribe tu dirección.</div></div>
+   <div class="field"><label for="ciudad">Ciudad o sector</label><input id="ciudad" data-req><div class="err">Escribe tu ciudad o sector.</div></div>
+   <div class="field"><label for="prov">Provincia</label><select id="prov"><option>Santo Domingo</option><option>Distrito Nacional</option><option>Santiago</option><option>La Altagracia</option><option>San Cristóbal</option><option>Otra</option></select></div></div></div>
+  <div class="panel"><h3>Método de pago</h3><div class="pay">
+   <label><input type="radio" name="pago" checked> Tarjeta de crédito o débito</label>
+   <label><input type="radio" name="pago"> Transferencia bancaria</label>
+   <label><input type="radio" name="pago"> Pago contra entrega</label></div></div>
+ </div>
+ <aside class="summary"><h3>Tu pedido</h3><div id="mini"></div><button class="btn btn-primary btn-block" type="submit" style="margin-top:18px">Confirmar pedido</button><p class="note">Tienda de demostración: no se realiza ningún cobro real.</p></aside>
+</form></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
