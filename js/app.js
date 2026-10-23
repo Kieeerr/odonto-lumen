@@ -1,7 +1,7 @@
 /* Odonto Lumen - tienda de demostración (HTML + CSS + JS puro) */
 const ENTREGA = {key:'Entrega',values:[{v:'Estándar (3 a 5 días)',extra:0},{v:'Express (24 a 48 horas)',extra:175}]};
 const PRODUCTS = [
- {id:'cepillo-suave',nombre:'Cepillo dental manual Suave Pro',cat:'Cepillos',precio:285,img:'images/cepillo.svg',tag:'Más vendido',
+ {id:'cepillo-suave',nombre:'Cepillo dental manual Suave Pro',cat:'Cepillos',precio:285,img:'images/cepillo.png',tag:'Más vendido',
   resumen:'Cerdas ultrasuaves con puntas redondeadas que limpian sin lastimar las encías.',
   descripcion:['El Suave Pro está diseñado para quienes buscan una limpieza diaria eficaz y delicada. Sus más de 10,000 filamentos de puntas redondeadas llegan entre los dientes y a lo largo de la línea de las encías, retirando la placa bacteriana sin irritar.','El mango ergonómico con zona antideslizante permite un agarre firme incluso con las manos mojadas, y el cabezal compacto alcanza las muelas del fondo. Recomendado por odontólogos para uso diario y para personas con encías sensibles o después de procedimientos dentales.'],
   caracteristicas:['Cerdas ultrasuaves de puntas redondeadas','Mango ergonómico antideslizante','Cabezal compacto para llegar a las muelas','Indicador de desgaste: cámbialo cada 3 meses'],
